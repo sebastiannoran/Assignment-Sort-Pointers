@@ -2,7 +2,7 @@
 //Input Output: duplicate = 4
 
 // Function will find the duplicate in the array
-function removeDuplicates(nums){
+function findDuplicate(nums){
     // Print the initial array for basic test case
     console.log(`The initial array is ${nums}`);
     // Beginning of Cyclic sort, getting indexes based on values
@@ -25,5 +25,5 @@ function removeDuplicates(nums){
       return duplicate;
     }
     
-    let value = removeDuplicates([1,2,3,4,4,5,6]);
+    let value = findDuplicate([1,2,3,4,4,5,6]);
     console.log(value);
