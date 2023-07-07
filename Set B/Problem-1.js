@@ -26,3 +26,5 @@ let currentIndex = 0;
 
 let value = removeDuplicates([1,1,1,2,2,3,3,4]);
 console.log(value);
+
+module.exports = removeDuplicates;

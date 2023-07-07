@@ -27,3 +27,5 @@ function findDuplicate(nums){
     
     let value = findDuplicate([1,2,3,4,4,5,6]);
     console.log(value);
+
+    module.exports = findDuplicate;
