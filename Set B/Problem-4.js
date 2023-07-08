@@ -1,10 +1,6 @@
-//Input: nums = [3,1,5,2,4,3,3,4,2]
-//Input Output: duplicate Array = [3,4,5]
-
 // Function will find all duplicates in the array
 function findAllDuplicates(nums){
     // Print the initial array for basic test case
-    console.log(`The initial array is ${nums}`);
     // Beginning of Cyclic sort, getting indexes based on values
     let currentIndex = 0;
     let duplicates = [];
@@ -22,7 +18,6 @@ function findAllDuplicates(nums){
         }
       }
 
-      console.log(`The sorted array is ${nums}`);
       // For every value in the newly sorted array, push any number that does not match the correct index
       for(let i = 0; i < nums.length; i++) {
         if(i + 1 != nums[i]){
@@ -33,7 +28,5 @@ function findAllDuplicates(nums){
       return duplicates;
     }
     
-    let value = findAllDuplicates([3,1,5,2,4,3,3,4,2]);
-    console.log(value);
 
     module.exports = findAllDuplicates;
