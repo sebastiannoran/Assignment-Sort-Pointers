@@ -3,12 +3,12 @@ function findDuplicate(nums){
     // Print the initial array for basic test case
     // Beginning of Cyclic sort, getting indexes based on values
   let currentIndex = 0;
-
+  // Iterate with a while loop instead of a for loop to better control when currentIndex increases
   while (currentIndex < nums.length) {
     const value = nums[currentIndex];
     if (value !== currentIndex + 1) {
       if (value === nums[value - 1]) {
-        // Found a duplicate
+        // Found a duplicate, since there is only one, return the duplicate
         return value;
       }
       // Swap the numbers
