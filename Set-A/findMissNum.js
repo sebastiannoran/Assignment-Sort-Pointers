@@ -15,11 +15,6 @@ function missingNumber (nums) {
     }
 }
 
-let nums = [3,0,1];
 
-const missingNum = missingNumber(nums);
-
-console.log(missingNum);
-
-
+ 
 module.exports = missingNumber;

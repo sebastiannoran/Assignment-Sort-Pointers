@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "day18-cyclic-sort-and-fast-and-slow-pointers",
     "version": "1.0.0",
     "description": "",
@@ -12,4 +13,19 @@
     "devDependencies": {
         "jest": "^29.6.1"
     }
+=======
+  "name": "assignment-sort-pointers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.0.0"
+  }
+>>>>>>> de468755fc758f27c64c9fe07102697a4b60ab2e
 }
