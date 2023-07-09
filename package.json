@@ -1,0 +1,15 @@
+{
+  "name": "assignment-sort-pointers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.0.0"
+  }
+}
